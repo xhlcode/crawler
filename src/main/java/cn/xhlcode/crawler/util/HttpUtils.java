@@ -1,4 +1,4 @@
-package cn.xhlcode.crawler;
+package cn.xhlcode.crawler.util;
 
 import com.alibaba.fastjson.JSONObject;
 import com.gargoylesoftware.htmlunit.BrowserVersion;

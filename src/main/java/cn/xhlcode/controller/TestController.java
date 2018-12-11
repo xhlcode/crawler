@@ -1,5 +1,6 @@
 package cn.xhlcode.controller;
 
+import cn.xhlcode.core.ResultDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,8 +14,11 @@ public class TestController {
     private static final Logger LOGGER = LoggerFactory.getLogger(TestController.class);
 
     @RequestMapping(value = "/home", method = RequestMethod.GET)
-    public String home(String name) {
+    public ResultDto home(String name) {
         LOGGER.info("测试");
-        return "Hello " + name;
+        ResultDto<String> resultDto  = new ResultDto<>();
+        resultDto.setMessage("执行成功: " + name);
+        resultDto.setResult(name);
+        return resultDto;
     }
 }

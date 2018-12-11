@@ -1,5 +1,6 @@
 package cn.xhlcode.component;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.catalina.User;
@@ -55,7 +56,7 @@ public class RestControllerAspect {
         LOGGER.info("Started request -> requester [{}] method [{}] params [{}]",name, methodName, params);
         long start = System.currentTimeMillis();
         Object result = point.proceed();
-        LOGGER.info("End request -> requester [{}] method [{}] params [{}] and response is [{}] cost [{}] millis", name, methodName, params, result,System.currentTimeMillis() - start);
+        LOGGER.info("End request -> requester [{}] method [{}] params [{}] and response is [{}] cost [{}] millis", name, methodName, params, JSONObject.toJSONString(result),System.currentTimeMillis() - start);
         return result;
     }
 

@@ -170,6 +170,10 @@
         可以包含零个或多个元素，标识这个appender将会添加到这个logger。
     -->
 
+
+    <logger name="cn.xhlcode.util" level="OFF" />
+
+
     <!--开发环境:打印控制台-->
     <springProfile name="dev">
         <logger name="${config.logger.packageName}" level="debug"/>

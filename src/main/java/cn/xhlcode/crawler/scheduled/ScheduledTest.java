@@ -13,7 +13,7 @@ public class ScheduledTest {
 
 
 
-    @Scheduled(fixedDelay = 5000)
+//    @Scheduled(fixedDelay = 5000)
     public void print() {
         System.out.println("当前时间： "+simpleDateFormat.format(new Date()));
     }

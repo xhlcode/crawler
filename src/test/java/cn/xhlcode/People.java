@@ -1,7 +1,6 @@
-package cn.xhlcode.crawler;
+package cn.xhlcode;
 
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.io.Serializable;
 
 public class People implements Serializable {

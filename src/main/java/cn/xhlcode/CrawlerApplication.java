@@ -1,4 +1,4 @@
-package cn.xhlcode.crawler;
+package cn.xhlcode;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

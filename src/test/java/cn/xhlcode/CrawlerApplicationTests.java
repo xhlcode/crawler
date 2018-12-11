@@ -1,4 +1,4 @@
-package cn.xhlcode.crawler;
+package cn.xhlcode;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package cn.xhlcode.crawler.component;
+package cn.xhlcode.component;
 
 import com.alibaba.fastjson.JSONObject;
 import com.fasterxml.jackson.databind.ObjectMapper;

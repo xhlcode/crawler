@@ -1,4 +1,4 @@
-package cn.xhlcode.crawler.scheduled;
+package cn.xhlcode.scheduled;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

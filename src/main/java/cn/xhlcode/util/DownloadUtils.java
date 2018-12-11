@@ -1,4 +1,4 @@
-package cn.xhlcode.crawler.util;
+package cn.xhlcode.util;
 
 import java.util.Deque;
 import java.util.LinkedList;

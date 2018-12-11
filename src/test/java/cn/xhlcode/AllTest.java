@@ -1,12 +1,9 @@
-package cn.xhlcode.crawler;
+package cn.xhlcode;
 
 
 import com.alibaba.fastjson.JSONObject;
 import org.junit.Test;
 import org.springframework.util.SerializationUtils;
-
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 
 
 public class AllTest {

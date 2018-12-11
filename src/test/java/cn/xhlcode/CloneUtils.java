@@ -1,4 +1,4 @@
-package cn.xhlcode.crawler;
+package cn.xhlcode;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

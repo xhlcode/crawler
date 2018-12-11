@@ -1,6 +1,6 @@
-package cn.xhlcode.crawler;
+package cn.xhlcode;
 
-import cn.xhlcode.crawler.util.HttpUtils;
+import cn.xhlcode.util.HttpUtils;
 import com.alibaba.fastjson.JSONObject;
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.NicelyResynchronizingAjaxController;
